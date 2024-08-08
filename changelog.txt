@@ -1,5 +1,11 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.0.1
+Version: 0.1.1
+Date: 08. 08. 2024
+  Major Features:
+    - Disabled vanilla resources
+    - Added speed module 3, productivity module 3, beacon
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
 Date: 08. 07. 2024
   Major Features:
     - Initial release
