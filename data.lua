@@ -9,7 +9,10 @@ local resources = {
     {name = "stack-inserter", result = "stack-inserter", tint = {r = 1, g = 0.9, b = 0.1}},
     {name = "steel-chest", result = "steel-chest", tint = {r = 0.6, g = 0.6, b = 0.6}},
     {name = "express-splitter", result = "express-splitter", tint = {r = 0.5, g = 0.5, b = 1}},
-    {name = "low-density-structure", result = "low-density-structure", tint = {r = 1, g = 0.7, b = 0.2}}
+    {name = "low-density-structure", result = "low-density-structure", tint = {r = 1, g = 0.7, b = 0.2}},
+    {name = "speed-module-3", result = "speed-module-3", tint = {r = 0.4, g = 0.3, b = 0.1}},
+    {name = "productivity-module-3", result = "productivity-module-3", tint = {r = 0.9, g = 0.3, b = 0.2}},
+    {name = "beacon", result = "beacon", tint = {r = 5, g = 0.6, b = 0.4}},
 }
 
 -- Define autoplace controls and noise layers
@@ -56,13 +59,13 @@ for _, resource in pairs(resources) do
                 sharpness = 0.8,
                 richness_multiplier = 1300,
                 richness_base = 10,
-                size_control_multiplier = 0.03,
+                size_control_multiplier = 0.06,
                 peaks = {
                     {
-                        influence = 0.60,
+                        influence = 0.20,
                         starting_area_weight_optimal = 1,
-                        starting_area_weight_range = 0,
-                        starting_area_weight_max_range = 1,
+                        starting_area_weight_range = 0.2,
+                        starting_area_weight_max_range = 3,
                     },
                     {
                         influence = 0.64,
